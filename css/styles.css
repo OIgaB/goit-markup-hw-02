@@ -1,45 +1,124 @@
+/* Общие утилиты */
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --secondary-text-color: #FFFFFF; 
+  --accent-text-color: #2196f3;
+  --sacondary-background-color: #2f303a;
+  }
+
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+}
 /* Лого */
-.logo {
-  color: #000000;
+header > .logo {
+  color: #2F303A;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  font-style: normal;
+  font-weight: 700;
+}
+footer > .logo {
+  color: var(--secondary-text-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
   font-weight: bold;
-  letter-spacing: 0.03em;
 }
 span {
-  color: #2196f3;
-}
-/* Общие утилиты */
-body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  color: var(--accent-text-color);
+  }
+ul {
   list-style: none;
+}
+a {
   text-decoration: none;
+  font-style: normal;
 }
 
-/* Навигация */
+/* Навигационная панель в шапке */
+.site-nav .link {
+  color: var(--accent-text-color); 
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);  
+}
+/* Подсвечивание кнопки "Портфолио"*/
+.site-nav .link {
+  color: var (var(--accent-text-color);
+}
 
+.header-contacts > .mail,
+.header-contacts > .tel {
+  color: var(--primary-text-color);
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+} 
+.header-contacts > .mail:hover,
+.header-contacts > .mail:focus,
+.header-contacts > .tel:hover,
+.header-contacts > .tel:focus {
+  color: var(--accent-text-color);
+  } 
+
+.header-contacts > .mail,
+.header-contacts > .tel {
+
+}
+.footer-contacts > .adress,
+.footer-contacts > .mail,
+.footer-contacts > .tel {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+}
+.footer-contacts .link {
+  color: var(--secondary-text-color);
+}
 
 /* Кнопки */
-.main-section-button,
-.main-section-button {
-  color: #212121;
-  background-color: #f5f4fa;
+.button {
+  color: var(--title-text-color);
+    background-color: #f5f4fa;
   font-family: inherit;
+
 }
-.main-section-button:hover,
-.main-section-button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+.button:hover,
+.button:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-text-color);
+}
+.button.auto {
+cursor: pointer;
 }
 
-/* Страница "Студия" */
+.hero-section .button {
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
 /* Герой */
+.hero-section,
+.footer {
+  background-color: var(--sacondary-background-color);
+  letter-spacing: 0.06em;
+}
+
 .hero-section > .title {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--sacondary-background-color);
+  color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -48,21 +127,62 @@ body {
   text-transform: uppercase;
 }
 
-
-
-
-
-/* Страница "Портфолио" */
-
-
-
-
-
-
-
-/* Подсвечивание кнопки "Портфолио" */
-.site-nav .link {
-  color: var (--);
+.employees-list {
+  background-color: #f5f4fa;
 }
 
 
+/* Особенности-преимущества */
+.features .title {
+color: var(--title-text-color);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.features .features-item {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+}
+/* Сотрудники */
+.employees-list .employee-name {
+color: var(--title-text-color)
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+.employees-list .employee-title {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+/* Заголовки 1-й страницы для сфер деятельности и сотрудников */
+.activities-list > .header,
+.employees-list > .header {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+}
+
+.portfolio-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.portfolio-item {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+}
+
+.portfolio-icons a {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.06em;
+}
