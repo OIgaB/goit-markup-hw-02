@@ -53,9 +53,9 @@ a {
 .site-nav .link:focus {
   color: var(--title-text-color);  
 }
-/* Подсвечивание кнопки "Портфолио"*/
-.site-nav .link {
-  color: var (var(--accent-text-color);
+/* Подсвечивание кнопки "Портфолио" */
+.currect {
+  color: var(--accent-text-color);
 }
 
 .header-contacts > .mail,
