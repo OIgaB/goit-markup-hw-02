@@ -1,0 +1,68 @@
+/* Лого */
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+span {
+  color: #2196f3;
+}
+/* Общие утилиты */
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Навигация */
+
+
+/* Кнопки */
+.main-section-button,
+.main-section-button {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: inherit;
+}
+.main-section-button:hover,
+.main-section-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Страница "Студия" */
+/* Герой */
+.hero-section > .title {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* Страница "Портфолио" */
+
+
+
+
+
+
+
+/* Подсвечивание кнопки "Портфолио" */
+.site-nav .link {
+  color: var (--);
+}
+
+
